@@ -1,0 +1,220 @@
+{
+  "rooms": [
+    {
+      "name": "verfallener_gang_obergeschoss",
+      "description": "Ein dunkler, verfallener Gang im Obergeschoss. Die Wände sind rissig, und der Boden knarzt bei jedem Schritt.",
+      "options": {
+        "1": "krankensaal",
+        "2": "archivraum",
+        "3": "station_der_pflege",
+        "4": "gefaehrliche_treppe",
+        "5": "sicherheitsbuero",
+        "6": "therapiezimmer",
+        "7": "kellerzugang",
+        "8": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "Zum Krankensaal gehen.",
+        "2": "Den Archivraum betreten.",
+        "3": "Zur Station der Pflege gehen.",
+        "4": "Die gefährliche Treppe hinuntergehen.",
+        "5": "Das Sicherheitsbüro betreten.",
+        "6": "Das Therapiezimmer untersuchen.",
+        "7": "Zum Kellerzugang gehen.",
+        "8": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "krankensaal",
+      "description": "Ein düsterer Krankensaal, der nach Verfall riecht. Überall liegen alte medizinische Notizen herum.",
+      "options": {
+        "1": "verfallener_gang_obergeschoss",
+        "2": "archivraum",
+        "3": "gefaehrliche_treppe",
+        "4": "kellerzugang",
+        "5": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "Zurück in den Gang gehen.",
+        "2": "In den Archivraum gehen.",
+        "3": "Die gefährliche Treppe hinuntergehen.",
+        "4": "Zum Kellerzugang gehen.",
+        "5": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "archivraum",
+      "description": "Ein dunkler Archivraum voller alter, staubiger Dokumente.",
+      "options": {
+        "1": "verfallener_gang_obergeschoss",
+        "2": "krankensaal",
+        "3": "station_der_pflege",
+        "4": "gefaehrliche_treppe",
+        "5": "kellerzugang",
+        "6": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "Zurück in den Gang gehen.",
+        "2": "Zurück in den Krankensaal.",
+        "3": "Zur Station der Pflege gehen.",
+        "4": "Die gefährliche Treppe hinuntergehen.",
+        "5": "Zum Kellerzugang gehen.",
+        "6": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "station_der_pflege",
+      "description": "Eine alte Station, in der Patienten gepflegt wurden. Monitore flackern und werfen gespenstische Schatten.",
+      "options": {
+        "1": "verfallener_gang_obergeschoss",
+        "2": "archivraum",
+        "3": "gefaehrliche_treppe",
+        "4": "therapieraum",
+        "5": "sicherheitsbuero",
+        "6": "kellerzugang",
+        "7": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "Zurück in den Gang gehen.",
+        "2": "Zurück ins Archiv gehen.",
+        "3": "Die gefährliche Treppe hinuntergehen.",
+        "4": "Das Therapiezimmer betreten.",
+        "5": "Das Sicherheitsbüro betreten.",
+        "6": "Zum Kellerzugang gehen.",
+        "7": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "gefaehrliche_treppe",
+      "description": "Eine gefährliche Treppe, die nach unten führt.",
+      "options": {
+        "1": "zerfallene_flure_erdgeschoss",
+        "2": "verfallener_gang_obergeschoss",
+        "3": "ritualzimmer",
+        "4": "kellerzugang",
+        "5": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "Die Treppe hinuntergehen.",
+        "2": "Zurück in den Obergeschoss-Gang.",
+        "3": "Das Ritualzimmer betreten.",
+        "4": "Zum Kellerzugang gehen.",
+        "5": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "zerfallene_flure_erdgeschoss",
+      "description": "Zerfallene Flure im Erdgeschoss der Psychiatrie.",
+      "options": {
+        "1": "ritualzimmer",
+        "2": "grosse_kueche",
+        "3": "sezierraum",
+        "4": "kellerzugang",
+        "5": "gefaehrliche_treppe"
+      },
+      "option_texts": {
+        "1": "Das Ritualzimmer betreten.",
+        "2": "Die große Küche betreten.",
+        "3": "Den Sezierraum betreten.",
+        "4": "Zum Kellerzugang gehen.",
+        "5": "Zurück zur gefährlichen Treppe."
+      }
+    },
+    {
+      "name": "ritualzimmer",
+      "description": "Ein mysteriöses Ritualzimmer. Es gibt ein Portal in der Mitte des Raumes.",
+      "options": {
+        "1": "portal_betreten",
+        "2": "zerfallene_flure_erdgeschoss",
+        "3": "gefaehrliche_treppe",
+        "4": "kellerzugang",
+        "5": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "Das Portal betreten.",
+        "2": "Den Raum verlassen und zurück zu den Zerfallenen Fluren.",
+        "3": "Zurück zur gefährlichen Treppe.",
+        "4": "Zum Kellerzugang gehen.",
+        "5": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "therapiezimmer",
+      "description": "Ein verlassenes Therapiezimmer. Die Stühle sind verstaubt, und die Wände sind mit verblassten Plakaten bedeckt.",
+      "options": {
+        "1": "verfallener_gang_obergeschoss",
+        "2": "station_der_pflege",
+        "3": "gefaehrliche_treppe",
+        "4": "kellerzugang",
+        "5": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "Zurück in den Gang gehen.",
+        "2": "Zurück zur Station der Pflege gehen.",
+        "3": "Die gefährliche Treppe hinuntergehen.",
+        "4": "Zum Kellerzugang gehen.",
+        "5": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "sicherheitsbuero",
+      "description": "Ein verlassenes Sicherheitsbüro. Auf dem Tisch liegt ein alter Aktenordner, der leicht vergilbt ist.",
+      "options": {
+        "1": "verfallener_gang_obergeschoss",
+        "2": "station_der_pflege",
+        "3": "kellerzugang",
+        "4": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "Zurück in den Gang gehen.",
+        "2": "Zurück zur Station der Pflege gehen.",
+        "3": "Zum Kellerzugang gehen.",
+        "4": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "kellerzugang",
+      "description": "Ein dunkler Kellerzugang, der in die Tiefen der Psychiatrie führt. Die Stufen sind rutschig und kaum erkennbar.",
+      "options": {
+        "1": "zerfallene_flure_erdgeschoss",
+        "2": "gefaehrliche_treppe",
+        "3": "sicherheitsbuero",
+        "4": "ritualzimmer",
+        "5": "grosse_kueche"
+      },
+      "option_texts": {
+        "1": "In die zerfallenen Flure des Erdgeschosses gehen.",
+        "2": "Die gefährliche Treppe hinuntergehen.",
+        "3": "Zurück ins Sicherheitsbüro gehen.",
+        "4": "Zurück ins Ritualzimmer gehen.",
+        "5": "Die große Küche betreten."
+      }
+    },
+    {
+      "name": "grosse_kueche",
+      "description": "Eine große, verlassene Küche. Überall liegen alte Teller und Utensilien. Der Geruch von altem Essen hängt in der Luft.",
+      "options": {
+        "1": "verfallener_gang_obergeschoss",
+        "2": "archivraum",
+        "3": "station_der_pflege",
+        "4": "zerfallene_flure_erdgeschoss",
+        "5": "gefaehrliche_treppe",
+        "6": "kellerzugang",
+        "7": "ritualzimmer",
+        "8": "sicherheitsbuero",
+        "9": "therapiezimmer"
+      },
+      "option_texts": {
+        "1": "Zurück in den Gang gehen.",
+        "2": "In den Archivraum gehen.",
+        "3": "Zur Station der Pflege gehen.",
+        "4": "In die zerfallenen Flure des Erdgeschosses gehen.",
+        "5": "Die gefährliche Treppe hinuntergehen.",
+        "6": "Zum Kellerzugang gehen.",
+        "7": "Zurück ins Ritualzimmer gehen.",
+        "8": "Zurück ins Sicherheitsbüro gehen.",
+        "9": "Zurück ins Therapiezimmer gehen."
+      }
+    }
+  ]
+}
